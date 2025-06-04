@@ -1,38 +1,53 @@
-# Paint
-### 1.  Description
+# 🌸 Flower Shop Website
 
-- This code creates a simple paint program using C# and the .NET Framework.
-- It offers basic drawing tools like freehand drawing, lines, rectangles, ellipses, and a fill tool.
-- Users can select colors using a color picker or a standard color dialog.
-- Paintings can be saved as JPEG images.
+A responsive static website for a fictional flower shop. This project was built using only HTML and CSS and showcases front-end layout skills, design aesthetics, and use of imagery in e-commerce presentation.
 
-### 2. Files
+## ✨ Features
 
-    - Form1.cs: This is the main file containing the code for the program's form and functionality.
-    - Resources.resx: A resource file containing images or icons used in the program.
-    - App.config: An optional configuration file for application settings.
+- Clean and elegant design
+- Responsive layout (works well on desktop)
+- Multiple sections: homepage, products, company info, delivery/payment methods
+- Custom image gallery of flower arrangements
+- Styled using modern CSS practices
 
-### 3. How the program was programmed?
+## 🛠️ Tech Stack
 
-    * Key components:
-        - Windows Forms: Used to create the user interface elements like buttons, picture boxes, and color pickers.
-        - Graphics class: Used to draw shapes and lines on a Bitmap object, which represents the drawing canvas.
-        - Mouse events: Captured to track mouse actions and draw accordingly.
-        - Core steps in the program's execution:
+- HTML5
+- CSS3
 
-    * Initialization:
-        - Create a Bitmap object to represent the drawing canvas.
-        - Create a Graphics object associated with the Bitmap to perform drawing actions.
-        - Set up user interface elements and event handlers.
-    * User input:
-        - Handle mouse events (clicks, moves, etc.) to initiate drawing actions.
-        - Capture color selections from buttons and color pickers.
-    * Drawing:
-        - Use Graphics methods like DrawLine, DrawEllipse, DrawRectangle, and Fill to create shapes and lines on the Bitmap object.
-    * Saving:
-        - Allow saving the drawn image as a JPEG file using a SaveFileDialog and the Bitmap object's Save method.
+## 📁 Project Structure
 
-### 4. Links to source code and websites that were used in the solution
+```
+├── index.html               # Main HTML page
+├── style.css                # Stylesheet for layout and design
+├── images/                  # All images used in the website
+├── README.md                # Project documentation
+```
 
--   [.NET](https://dotnet.microsoft.com/en-us/)
--   [Microsoft Developer Network](https://learn.microsoft.com/en-us/windows-server/networking/)
+## 🚀 How to Run
+
+1. **Open `index.html`** in your preferred browser:
+   ```bash
+   open index.html
+   ```
+
+2. Alternatively, use Live Server in VS Code for a better development experience.
+
+## 🎯 Skills Demonstrated
+
+- HTML layout structure and semantic tags
+- CSS styling, layout, and positioning
+- Image handling and optimization
+- Building static web content for small businesses
+
+## 📸 Screenshots
+
+_You can insert a screenshot of the homepage or product gallery here._
+
+## 📚 License
+
+This project is open-source and available under the MIT License.
+
+## 👩‍💻 Author
+
+Created with 💐 by [Tetiana] — beginner web developer and design enthusiast.
