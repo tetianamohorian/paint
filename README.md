@@ -45,10 +45,6 @@ A lightweight drawing application built with C# and Windows Forms. This project 
 - Event-driven programming and UI design
 - Resource management (loading icons and assets)
 
-## 📸 Screenshots
-
-_Add screenshots of the application interface here._
-
 ## 📚 License
 
 This project is open-source and licensed under the MIT License.
