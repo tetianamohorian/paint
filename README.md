@@ -1,53 +1,58 @@
-# 🌸 Flower Shop Website
+# 🎨 Paint Application (C# Windows Forms)
 
-A responsive static website for a fictional flower shop. This project was built using only HTML and CSS and showcases front-end layout skills, design aesthetics, and use of imagery in e-commerce presentation.
+A lightweight drawing application built with C# and Windows Forms. This project emulates the basic functionality of Microsoft Paint, allowing users to draw, erase, and create shapes with color selection and simple UI tools.
 
 ## ✨ Features
 
-- Clean and elegant design
-- Responsive layout (works well on desktop)
-- Multiple sections: homepage, products, company info, delivery/payment methods
-- Custom image gallery of flower arrangements
-- Styled using modern CSS practices
+- Pencil, eraser, and shape tools (line, circle, rectangle)
+- Color selection and palette support
+- Fill tool (bucket)
+- Windows Forms user interface
+- Tool icons for intuitive interaction
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
+- C#
+- .NET Framework (Windows Forms)
+- Visual Studio
 
 ## 📁 Project Structure
 
 ```
-├── index.html               # Main HTML page
-├── style.css                # Stylesheet for layout and design
-├── images/                  # All images used in the website
-├── README.md                # Project documentation
+├── Paint.sln                        # Visual Studio solution file
+├── Paint/
+│   ├── Program.cs                   # Entry point
+│   ├── Form1.cs                     # Main drawing form logic
+│   ├── Form1.Designer.cs            # UI layout definition
+│   ├── Resources/                   # Icons for drawing tools
+│   ├── Properties/                  # Project configuration files
+├── README.md                        # Project documentation
 ```
 
 ## 🚀 How to Run
 
-1. **Open `index.html`** in your preferred browser:
-   ```bash
-   open index.html
-   ```
+1. **Open the solution (`Paint.sln`) in Visual Studio.**
+2. **Build the project (`Ctrl + Shift + B`)**
+3. **Run (`F5`)**
 
-2. Alternatively, use Live Server in VS Code for a better development experience.
+> Requires Windows and .NET Framework compatible environment.
 
 ## 🎯 Skills Demonstrated
 
-- HTML layout structure and semantic tags
-- CSS styling, layout, and positioning
-- Image handling and optimization
-- Building static web content for small businesses
+- Windows Forms development
+- GDI+ drawing in .NET
+- Object-oriented programming in C#
+- Event-driven programming and UI design
+- Resource management (loading icons and assets)
 
 ## 📸 Screenshots
 
-_You can insert a screenshot of the homepage or product gallery here._
+_Add screenshots of the application interface here._
 
 ## 📚 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and licensed under the MIT License.
 
-## 👩‍💻 Author
+## 👨‍💻 Author
 
-Created with 💐 by [Tetiana] — beginner web developer and design enthusiast.
+Created with 💻 and creativity by [Tetiana] — aspiring C# desktop application developer.
